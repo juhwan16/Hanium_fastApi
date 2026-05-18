@@ -11,3 +11,6 @@ class CSIData(BaseModel):
     raw: list[float]
     device_id: str
     timestamp: str
+
+class DeviceTokenRegister(BaseModel):
+    token: str
